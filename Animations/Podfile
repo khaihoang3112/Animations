@@ -7,6 +7,6 @@ target 'Animations' do
 
   # Pods for Animations
     use_frameworks!
-    pod "TabPageViewController"
+    pod 'TabPageViewController'
 
 end

@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		987FFE63E21E2ACF990125F1 /* Pods_Animations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6671C1CB10D1362A3321F396 /* Pods_Animations.framework */; };
 		EC11FF211EA7E03A006B5745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF201EA7E03A006B5745 /* AppDelegate.swift */; };
-		EC11FF231EA7E03A006B5745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF221EA7E03A006B5745 /* ViewController.swift */; };
 		EC11FF261EA7E03A006B5745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11FF241EA7E03A006B5745 /* Main.storyboard */; };
 		EC11FF281EA7E03A006B5745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC11FF271EA7E03A006B5745 /* Assets.xcassets */; };
 		EC11FF2B1EA7E03A006B5745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11FF291EA7E03A006B5745 /* LaunchScreen.storyboard */; };
+		EC11FF401EA92E07006B5745 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF3F1EA92E07006B5745 /* ContainerViewController.swift */; };
+		EC11FF421EA92E72006B5745 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF411EA92E72006B5745 /* ProjectsViewController.swift */; };
+		EC11FF441EA92E87006B5745 /* PrototypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF431EA92E87006B5745 /* PrototypesViewController.swift */; };
+		EC11FF461EA92E99006B5745 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF451EA92E99006B5745 /* FilesViewController.swift */; };
+		EC11FF481EA92EA4006B5745 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF471EA92EA4006B5745 /* PhotosViewController.swift */; };
+		EC11FF4A1EA92EB1006B5745 /* RecentlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11FF491EA92EB1006B5745 /* RecentlyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +26,16 @@
 		D132122971D6FF04E14F14FF /* Pods-Animations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animations.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animations/Pods-Animations.release.xcconfig"; sourceTree = "<group>"; };
 		EC11FF1D1EA7E03A006B5745 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC11FF201EA7E03A006B5745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC11FF221EA7E03A006B5745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC11FF251EA7E03A006B5745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC11FF271EA7E03A006B5745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC11FF2A1EA7E03A006B5745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC11FF2C1EA7E03A006B5745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC11FF3F1EA92E07006B5745 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		EC11FF411EA92E72006B5745 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		EC11FF431EA92E87006B5745 /* PrototypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypesViewController.swift; sourceTree = "<group>"; };
+		EC11FF451EA92E99006B5745 /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		EC11FF471EA92EA4006B5745 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		EC11FF491EA92EB1006B5745 /* RecentlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +88,43 @@
 		EC11FF1F1EA7E03A006B5745 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				EC11FF3C1EA92DD4006B5745 /* Model */,
+				EC11FF3E1EA92DDD006B5745 /* Views */,
+				EC11FF3D1EA92DD8006B5745 /* Controllers */,
 				EC11FF201EA7E03A006B5745 /* AppDelegate.swift */,
-				EC11FF221EA7E03A006B5745 /* ViewController.swift */,
 				EC11FF241EA7E03A006B5745 /* Main.storyboard */,
 				EC11FF271EA7E03A006B5745 /* Assets.xcassets */,
 				EC11FF291EA7E03A006B5745 /* LaunchScreen.storyboard */,
 				EC11FF2C1EA7E03A006B5745 /* Info.plist */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		EC11FF3C1EA92DD4006B5745 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC11FF3D1EA92DD8006B5745 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC11FF3F1EA92E07006B5745 /* ContainerViewController.swift */,
+				EC11FF411EA92E72006B5745 /* ProjectsViewController.swift */,
+				EC11FF431EA92E87006B5745 /* PrototypesViewController.swift */,
+				EC11FF451EA92E99006B5745 /* FilesViewController.swift */,
+				EC11FF471EA92EA4006B5745 /* PhotosViewController.swift */,
+				EC11FF491EA92EB1006B5745 /* RecentlyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EC11FF3E1EA92DDD006B5745 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC11FF231EA7E03A006B5745 /* ViewController.swift in Sources */,
+				EC11FF421EA92E72006B5745 /* ProjectsViewController.swift in Sources */,
+				EC11FF441EA92E87006B5745 /* PrototypesViewController.swift in Sources */,
+				EC11FF401EA92E07006B5745 /* ContainerViewController.swift in Sources */,
+				EC11FF481EA92EA4006B5745 /* PhotosViewController.swift in Sources */,
+				EC11FF461EA92E99006B5745 /* FilesViewController.swift in Sources */,
 				EC11FF211EA7E03A006B5745 /* AppDelegate.swift in Sources */,
+				EC11FF4A1EA92EB1006B5745 /* RecentlyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +421,7 @@
 				EC11FF311EA7E03A006B5745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

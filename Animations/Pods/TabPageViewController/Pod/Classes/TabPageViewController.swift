@@ -46,6 +46,7 @@ open class TabPageViewController: UIPageViewController {
 
     override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.navigationItem.hidesBackButton = true
 
         if tabView.superview == nil {
             tabView = configuredTabView()
